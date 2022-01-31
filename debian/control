@@ -1,0 +1,32 @@
+Source: php-dummy-package
+Section: php
+Priority: optional
+Maintainer: Sunflower Girasole <author@example.com>
+Build-Depends:
+ debhelper-compat (= 13),
+ phpab,
+Standards-Version: 1.0.0
+Homepage: https://www.example.com/my/cool/project
+Vcs-Browser: https://salsa.debian.org/debian/php-dummy-package
+Vcs-Git: https://github.com/sunflowerbofh/php-dummy-package.git
+Rules-Requires-Root: no
+
+Package: php-dummy-package
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${phpcomposer:Debian-require},
+Suggests:
+ ${phpcomposer:Debian-suggest},
+Replaces:
+ ${phpcomposer:Debian-replace},
+Breaks:
+ ${phpcomposer:Debian-conflict},
+ ${phpcomposer:Debian-replace},
+Provides:
+ ${phpcomposer:Debian-provide},
+Description: ${phpcomposer:description}
+ Provides framework to build debian php packages from
+ .
+ * Cool feature ...
+ * Another cool feature...

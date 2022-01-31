@@ -1,0 +1,5 @@
+php-dummy-package (1.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #9999999).
+
+ -- Firstname Secondname <auhtor@example.com>  Thu, 27 Jan 2022 13:01:01 +0100
