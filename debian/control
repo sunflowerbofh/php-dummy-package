@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Sunflower Girasole <author@example.com>
 Build-Depends:
  debhelper-compat (= 13),
+ pkg-php-tools,
  phpab,
 Standards-Version: 1.0.0
 Homepage: https://www.example.com/my/cool/project
