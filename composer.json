@@ -1,0 +1,45 @@
+{
+    "name": "dummy-package",
+    "type": "library",
+    "description": "A template for debian PHP packages.",
+    "keywords": [
+        "php",
+        "package",
+        "debian",
+        "dpkg",
+    ],
+    "license": "MIT",
+    "support": {
+        "docs": "https://github.com/sunflowerbofh/php-dummy-package/blob/master/readme.md",
+        "issues": "https://github.com/sunflowerbofh/php-dummy-package/issues",
+        "source": "https://github.com/sunflowerbofh/php-dummy-package",
+        "email": "author@example.com"
+    },
+    "authors": [
+        {
+            "name": "Sunflower Girasole",
+            "email": "author@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+    },
+    "require-dev": {
+	"phpunit/phpunit": "^8.5.5 || ^9.3.5",
+    },
+    "archive": {
+        "exclude": ["/examples", "/tests"]
+    },
+    "autoload": {
+        "psr-4": {
+            "dummy-package\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dummy-package\\Tests\\": "tests/"
+        }
+    }
+}
