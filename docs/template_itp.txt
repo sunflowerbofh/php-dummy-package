@@ -1,0 +1,17 @@
+Mailto: submit@bugs.debian.org
+Subject: ITP:<php-dummy-package> - <short description>
+
+Package: <php-dummy-package>
+
+* Package name    : <php-dummy-package>
+  Upstream Author : <Author Name> <author@outlook.com>
+* License         : <MIT|GPL2+|GPL3+|...>
+  Description     : <Dummy-Package is a PHP package that provides a framework for persons
+ not so experienced with building php packages for debian.
+  .
+  * You can use template files as a guide
+  * You don't necessarily need to use dh_make, which often creates an overhead of files.
+  * Nevertheless, after the dpkg-buildpackage, don't forget to use a lintian (-I).>
+
+Regards
+<The author>
