@@ -1,7 +1,7 @@
 Mailto: submit@bugs.debian.org
 Subject: ITP:<php-dummy-package> - <short description>
 
-Package: <php-dummy-package>
+Package: wnpp
 
 * Package name    : <php-dummy-package>
   Upstream Author : <Author Name> <author@outlook.com>
