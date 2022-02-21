@@ -24,7 +24,6 @@ Replaces:
  ${phpcomposer:Debian-replace},
 Breaks:
  ${phpcomposer:Debian-conflict},
- ${phpcomposer:Debian-replace},
 Provides:
  ${phpcomposer:Debian-provide},
 Description: ${phpcomposer:description}
