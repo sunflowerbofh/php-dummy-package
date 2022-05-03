@@ -28,7 +28,8 @@ Provides:
  ${phpcomposer:Debian-provide},
 Description: ${phpcomposer:description}
  Provides framework to build debian php packages from
+ This package contains some templates to build a php-* package for debian.
  .
- * Cool feature ...
-   This package can ...
- * Another cool feature...
+ The most important parts are
+  * Some examples for common changelog, license and control file
+  * building rules for php
