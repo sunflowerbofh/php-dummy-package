@@ -8,7 +8,7 @@ Build-Depends:
  phpab,
  pkg-php-tools,
 Rules-Requires-Root: no
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Homepage: https://www.example.com/my/cool/project
 Vcs-Browser: https://salsa.debian.org/debian/php-dummy-package
 Vcs-Git: https://github.com/sunflowerbofh/php-dummy-package.git
