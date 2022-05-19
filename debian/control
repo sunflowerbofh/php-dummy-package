@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Sunflower Girasole <author@example.com>
 Build-Depends:
  debhelper-compat (= 13),
- pkg-php-tools,
  phpab,
  pkg-php-tools,
 Rules-Requires-Root: no
